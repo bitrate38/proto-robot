@@ -20,7 +20,7 @@
 | `client/hello_pb2.py` | Сгенерированные сообщения для клиента. |
 | `client/hello_pb2_grpc.py` | Сгенерированные stub-классы для вызова методов сервера. |
 | `client/client.py` | Основной клиент: создаёт канал, stub, отправляет запрос и логирует ответ. |
-| `requirements.txt` | Python-зависимости проекта (`grpcio`, `grpcio-tools`, `protobuf`). |
+| `../requirements.txt` | Python-зависимости проекта (`grpcio`, `grpcio-tools`, `protobuf`). |
 | `Dockerfile` | Инструкция сборки Docker-образа для сервера/клиента. |
 | `docker-compose.yml` | Конфигурация Docker Compose для запуска серверa и клиента с сетью. |
 | `.gitignore` | Игнорирование временных файлов, `venv/`, `__pycache__/` и др. |
